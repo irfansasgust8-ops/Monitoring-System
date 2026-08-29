@@ -1,0 +1,11 @@
+{
+  "name": "aptika-workspace-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix APTIKA/monitoring_system/monitoring_system-master",
+    "build": "npm run build --prefix APTIKA/monitoring_system/monitoring_system-master",
+    "start": "npm run start --prefix APTIKA/monitoring_system/monitoring_system-master",
+    "lint": "npm run lint --prefix APTIKA/monitoring_system/monitoring_system-master"
+  }
+}
